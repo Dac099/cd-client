@@ -268,6 +268,15 @@ export default function Page() {
             </section>
           </article>
         </section>
+
+        <section className='h-max p-2 my-4 mx-2 border-2 border-zinc-400 rounded-md'>
+          <button 
+            type="submit"
+            className='bg-indigo-500 text-zinc-50 py-2 px-3 rounded-md ml-auto block'
+          >
+            Generar Cotización
+          </button>
+        </section>
       </Form>
     </article>
   );
